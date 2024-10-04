@@ -5,7 +5,7 @@ Key tasks include rectifying two camera views, calculating disparity maps, and p
 
 ## Implementation Overview
 
-**Rectify Two Views**
+**Rectify Two Views**\
 -`compute_right2left_transformation()`: Compute the transformation between the right and left camera frames 
 -`compute_rectification_R()`: Compute the rectification rotation matrix to transform the left camera view to a rectified frame
 -`rectify_2view()`: Warp the images using the computed homographies to obtain rectified images.
