@@ -29,3 +29,15 @@ We use k3d and plotly to visualize the reconstructed point cloud. In the Jupyter
 - Disparity Map: A map that measures the difference in position of the same point in the left and right images.
 - Depth Map: A representation of the distance of points in the scene from the camera.
 - Point Cloud: A set of data points in space representing the 3D structure of the scene.
+
+## Results
+
+![Cost-Disparity](https://github.com/user-attachments/assets/e59bdafc-dfbc-4b05-a34e-b91e8f9727d3)
+![disparity and depth map](https://github.com/user-attachments/assets/2aa37357-2f4d-4f64-8d5e-1cffa097df38)
+![LR Consistency Check Mask](https://github.com/user-attachments/assets/788a451e-5ad8-48ec-8e95-8f521004117c)
+![postprocessed depth and disparity map](https://github.com/user-attachments/assets/5851e058-1b8b-4933-8efd-5329e1dbd348)
+![Rectified Image](https://github.com/user-attachments/assets/26dda2d6-1d17-4d4e-a459-dbb362448ca5)
+![Right and Left View](https://github.com/user-attachments/assets/d21325df-dc69-490f-8cef-077524b8aaca)
+
+
+
