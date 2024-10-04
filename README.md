@@ -21,3 +21,11 @@ Key tasks include rectifying two camera views, calculating disparity maps, and p
 **Post-processing**
 - `postprocess()`: Remove outliers and transform the point cloud from the camera frame to the world frame.
 
+## Visualization
+We use k3d and plotly to visualize the reconstructed point cloud. In the Jupyter notebook, you can interact with the visualizations, including camera poses and point clouds.
+
+## Key Concepts
+- Rectification: Aligning stereo images so that corresponding points lie on the same horizontal line.
+- Disparity Map: A map that measures the difference in position of the same point in the left and right images.
+- Depth Map: A representation of the distance of points in the scene from the camera.
+- Point Cloud: A set of data points in space representing the 3D structure of the scene.
